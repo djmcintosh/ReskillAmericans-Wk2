@@ -1,0 +1,13 @@
+table, td, th {
+    border: solid;
+    color: black;
+    border-collapse: collapse;
+}
+th {
+    border-collapse: collapse;
+    color: black;
+    max-width: ;
+}
+.word {
+    color: aqua;
+}

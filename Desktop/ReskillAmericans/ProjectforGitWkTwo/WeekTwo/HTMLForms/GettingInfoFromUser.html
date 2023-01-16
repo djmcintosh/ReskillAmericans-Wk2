@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./GettingInfoFromUser.css" />
+    <title>Getting Information From User</title>
+  </head>
+  <h1>Getting Information from User</h1>
+  <h3>Lets gather some simple infromation first!</h3>
+  <body>
+    <!-- Lets begin buildung what we need-->
+    <br />
+    <hr />
+
+    <form action="server.php">
+      <fieldset>
+        <legend>Personal Information</legend>
+        First Name:<br /><input
+          type="text"
+          name="firstname"
+          value=""
+          placeholder="First Name Here"
+          <input
+          type="text"
+          name="fname"
+          id="fname"
+          required
+        />
+        <br />
+        Last Name:<br /><input
+          type="text"
+          name="lastname"
+          value=""
+          placeholder="Last Name Here"
+          <input
+          type="text"
+          name="fname"
+          id="fname"
+          required
+        />
+        <br />
+        Email:<br /><input
+          type="text"
+          name="lastname"
+          value=""
+          placeholder="Eamil Adresss"
+          <input
+          type="text"
+          name="fname"
+          id="fname"
+          required
+        />
+        <br />
+        <label for="freeform">Tell us how more about you:</label>
+        <br />
+
+        <textarea
+          id="freeform"
+          name="freeform"
+          value=""
+          placeholder="Tells us more about you!"
+          rows="4"
+          cols="50"
+        >
+Enter text here...
+        </textarea>
+        <br />
+        <label for="Priority">Priority:</label>
+        <select name="cars" id="carSelect">
+          <option value="High" selected>High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
